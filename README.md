@@ -28,10 +28,14 @@ Shared
 ├── JwtOptions.cs (JWT Config)
 └── PaginatedResult.cs (Pagination logic)
 
-Web_Api_E-commerc
+E-commerce_Web_API
 ├── Extensions (Service registration)
 ├── Middleware (Global error handler)
 └── Program.cs (Main entry point)
+
+Admin Dashboard
+├── Role Managment
+└── User Managment
 ```
 ---
 
