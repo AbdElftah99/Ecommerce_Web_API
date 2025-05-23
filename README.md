@@ -1,6 +1,6 @@
 # E-Commerce Web API (ASP.NET 8)
 
-This project is a modular **E-Commerce Web API** built using **ASP.NET Core 8**, following **Onion Architecture**. The solution is structured for scalability, maintainability, and separation of concerns.
+This project is a modular **E-Commerce Web API** built using **ASP.NET Core 8** with simple admin dashboard, following **Onion Architecture**. The solution is structured for scalability, maintainability, and separation of concerns.
 
 ---
 
@@ -119,4 +119,8 @@ Uses **JWT Bearer Tokens**:
 
 ```http
 Authorization: Bearer {your_token_here}
+
+## 🛡️ Caching
+
+You should run the Redis-service and Redis-CLI to test the project
 
