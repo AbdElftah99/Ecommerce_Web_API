@@ -109,6 +109,10 @@ POST /api/orders
 ```
 ---
 
+## 🛡️ Caching
+
+You should run the Redis-service and Redis-CLI to test the project
+
 ## 🛡️ Authentication
 
 Uses **JWT Bearer Tokens**:
@@ -120,7 +124,5 @@ Uses **JWT Bearer Tokens**:
 ```http
 Authorization: Bearer {your_token_here}
 
-## 🛡️ Caching
 
-You should run the Redis-service and Redis-CLI to test the project
 
